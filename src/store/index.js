@@ -18,7 +18,9 @@ function initSid () {
 
 export default new Vuex.Store({
   state: {
-    sid: initSid()
+    sid: initSid(),
+    isLogin: false,
+    token: ''
   },
   mutations: {
     // setSid(state, value){

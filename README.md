@@ -16,3 +16,4 @@ console.log('data >>> ', data)
 
 ### git中常用命令
 - `git commit --amend` 当commit的自定义消息写错的时候 使用此命令进行更改
+- git fatal: 拒绝合并无关的历史的错误解决：在pull 时候, 添加–allow-unrelated-histories参数 即可

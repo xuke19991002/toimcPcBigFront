@@ -527,7 +527,7 @@ body .fly-user-main{position: relative; min-height: 600px;}
   .laypage-main a, .laypage-main span{display: none;}
   .laypage-main .laypage-prev,
   .laypage-main .laypage-curr,
-  .laypage-main .laypage-next{display: inline-block;}
+  .laypage-main .laypage-next{display: inline-block; cursor: pointer}
 
   /* 列表 */
   .fly-list li h2 a{max-width: 72%;}
